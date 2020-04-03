@@ -10,3 +10,18 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+
+x = 1
+float_version = float(x)
+print(float_version)
+
+int_version = int(float_version)
+print(int_version)
+
+y = 100//2.5
+print(y)
+
+result = int(input("type some number here: ")) * int(input("type some other number here: "))
+print(result)
+
+#done
